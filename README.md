@@ -1,7 +1,7 @@
 # SmokeCheck
 
 **Track:** Climate
-**Team:** [name], [name]
+**Team:** Denis Lazerko, Stas Grushetsky
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/grushet/smokecheck/blob/main/smokecheck.ipynb)
 
@@ -9,7 +9,7 @@ Code: [smokecheck.ipynb](smokecheck.ipynb) (saved with all outputs)
 
 ## The problem
 
-Wildfire smoke now reaches Pacific Northwest towns almost every summer. Our own track practice has had to move inside because of it. [COACH LINE: one true sentence from Coach ____ about practices on smoke days, or delete this.] The call is usually made the evening before, so coaches, parents and buses can plan. [Check this with the coach.] The easy guess is "tomorrow will look like today", but that guess is always late on the first day smoke arrives. From 2023 to 2025, 83 of the 154 smoke days in our data came right after a clean day.
+Wildfire smoke now reaches Pacific Northwest towns almost every summer. Our own track practice has had to move inside because of it. The call is usually made the evening before, so coaches, parents and buses can plan. The easy guess is "tomorrow will look like today", but that guess is always late on the first day smoke arrives. From 2023 to 2025, 83 of the 154 smoke days in our data came right after a clean day.
 
 ## What we built
 
