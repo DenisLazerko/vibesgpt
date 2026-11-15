@@ -3,7 +3,7 @@
 **Track:** Climate
 **Team:** Denis Lazerko, Stas Grushetsky
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/grushet/smokecheck/blob/main/smokecheck.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DenisLazerko/smokecheck/blob/main/smokecheck.ipynb)
 
 Code: [smokecheck.ipynb](smokecheck.ipynb) (saved with all outputs)
 
