@@ -29,10 +29,9 @@ DATA = os.path.join(HERE, "data")
 RAW = os.path.join(DATA, "raw")
 
 YEARS = range(2013, 2026)
-SEASON_START = "06-20"  # a few extra June days so 7-day features exist on Jul 1
+SEASON_START = "06-20"  
 SEASON_END = "10-31"
 
-# EPA "CBSA Name" (metro area) -> short city name used in the project.
 CITIES = {
     "Seattle-Tacoma-Bellevue, WA": "Seattle",
     "Bremerton-Silverdale, WA": "Bremerton",
@@ -178,7 +177,6 @@ def load_weather(meta):
 
 
 def daily_from_hourly(h):
-    """Turn hourly values into the same daily summaries as the ERA5 archive."""
     h = h.copy()
     h["date"] = h["time"].dt.normalize()
     rad = np.deg2rad(h["wdir"])
@@ -197,11 +195,6 @@ def daily_from_hourly(h):
 
 
 def load_forecast_weather(meta):
-    """Weather forecasts issued the day before (Open-Meteo Previous Runs API).
-
-    Wind and rain forecasts in this archive start in 2024, so this only covers
-    the 2024 and 2025 seasons. Used for the forecast honesty check.
-    """
     def job(c, y):
         return ("https://previous-runs-api.open-meteo.com/v1/forecast", {
             "latitude": round(c.lat, 3), "longitude": round(c.lon, 3),
