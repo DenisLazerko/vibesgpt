@@ -15,7 +15,7 @@ SmokeCheck tells a Pacific Northwest athletic director the night before whether 
 
 **Code link:** https://github.com/DenisLazerko/vibesgpt/edit/main
 
-**Write-up link:** [GITHUB README LINK, after publishing]
+**Write-up link:** https://github.com/DenisLazerko/vibesgpt/blob/main/1_writeup.md
 
 **What we added:**
 We built the forecast for one user and one decision: an athletic director deciding at night whether tomorrow's practice moves inside. We count a missed smoke day as three times worse than an unneeded indoor practice. Instead of one station we used 55 EPA monitors in 20 cities, and the model reads smoke in nearby and upwind cities, since smoke usually reaches them first. We then asked four questions the brief doesn't:
